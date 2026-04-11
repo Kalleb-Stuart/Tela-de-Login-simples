@@ -27,3 +27,16 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 
     form.reset(); 
 });
+
+const btnToggle = document.getElementById('toggleSenha');
+const inputSenha = document.getElementById('senha');
+
+btnToggle.addEventListener('click', function() {
+    if (inputSenha.type === 'password') {
+        inputSenha.type = 'text';
+        btnToggle.innerText = 'Ocultar';
+    } else {
+        inputSenha.type = 'password';
+        btnToggle.innerText = 'Exibir';
+    }
+});

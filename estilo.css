@@ -108,3 +108,19 @@ button:hover {
     background-color: #00B4D8;
     transform: scale(1.02);
 }
+
+.input-group input:focus {
+    border-color: #90E0EF;
+    box-shadow: 0 0 8px rgba(144, 224, 239, 0.5);
+    background-color: #2a2a2aff; 
+    transition: 0.3s;
+}
+
+.input-group input:invalid:not(:placeholder-shown) {
+    border-color: #ff4d4d;
+}
+
+#toggleSenha {
+    margin: 0;
+    text-transform: none;
+}

@@ -12,9 +12,8 @@
     </header>
 
     <div class="login-container">
-        </div>
-    <div class="login-container">
         <div class="login-box">
+            
             <h1>Login</h1>
             
             <form id="loginForm">
@@ -25,7 +24,10 @@
                 
                 <div class="input-group">
                     <label for="senha">Senha:</label>
-                    <input type="password" id="senha" placeholder="Digite sua senha" required>
+                    <div style="position: relative; display: flex; align-items: center;">
+                        <input type="password" id="senha" placeholder="Digite sua senha" required style="padding-right: 80px;">
+                        <button type="button" id="toggleSenha" style="position: absolute; right: 5px; width: auto; padding: 5px 10px; font-size: 0.7rem; background-color: #013A63; margin-bottom: 0;">Exibir</button>
+                    </div>
                 </div>
                 
                 <div class="checkbox-group">

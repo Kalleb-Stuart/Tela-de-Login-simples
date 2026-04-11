@@ -109,6 +109,10 @@ button:hover {
     transform: scale(1.02);
 }
 
+#toggleSenha {
+    color: white;
+}
+
 .input-group input:focus {
     border-color: #90E0EF;
     box-shadow: 0 0 8px rgba(144, 224, 239, 0.5);

@@ -40,3 +40,4 @@ btnToggle.addEventListener('click', function() {
         btnToggle.innerText = 'Exibir';
     }
 });
+
